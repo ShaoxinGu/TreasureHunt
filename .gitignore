@@ -1,0 +1,9 @@
+.vs/
+Library/
+Logs/
+Packages/
+Temp/
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp.csproj
+TreasureHunt.sln
+obj/
