@@ -135,7 +135,7 @@ public class AStarPathfinding
         PointData endData = null;
         // 找到终点或“开启列表”为空时退出循环
         for (bool finish = false; !finish && openList.Count > 0;)
-        {   
+        {
             // 取出f值最小的点
             openList.Sort((x, y) => { return x.F().CompareTo(y.F()); });
             PointData data = openList[0];
